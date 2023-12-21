@@ -1,0 +1,17 @@
+.spotifyHome{
+    background: linear-gradient(to bottom, #5c5c5c, #121212);
+    height: 43vh;
+    width: 80rem;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid white; */
+    border-radius: 0.6rem 0.6rem 0 0;
+}
+
+
+
+.spotifyPlaylists{
+    height: 43vh;
+    /* border: 1px solid white; */
+    background:  #121212;
+} 

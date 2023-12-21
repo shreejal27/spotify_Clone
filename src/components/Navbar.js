@@ -1,19 +1,28 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+import "./navbar.css";
+
 const Navbar = () =>{
     return(
         <nav>
             <ul>
+                <div className="topRowNavBar">
                 <li>
-                    <Link to="/">Home</Link>
+                    <Link to="/"><i class="fa-solid fa-house fa-xl" style={{color: "#ffffff",}}></i></Link>
                 </li>
                 <li>
-                    <Link to="/search">Search</Link>
+                    <Link to="/search"><i class="fa-solid fa-magnifying-glass fa-xl" style={{color: "#ffffff",}}></i></Link>
+                </li>
+                </div>
+                <div className="bottomRowNavBar">
+                <li>
+                    <Link to="/album"><i class="fa-solid fa-house fa-xl" style={{color: "#ffffff",}}></i></Link>
                 </li>
                 <li>
-                    <Link to="/album">Album</Link>
+                    <Link to="/album"><i class="fa-solid fa-house fa-xl" style={{color: "#ffffff",}}></i></Link>
                 </li>
+                </div>
             </ul>
         </nav>
     )

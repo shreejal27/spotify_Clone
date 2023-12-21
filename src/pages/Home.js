@@ -1,9 +1,16 @@
 import React from "react";
 
+import "./home.css";
+
 const Home = () =>{
     return(
         <div>
-            <h1>This is from Home</h1>
+        <div className="spotifyHome">
+            <p>This is from Home</p>
+        </div>
+              <div className="spotifyPlaylists">      
+              <h1>This is from Home</h1>
+            </div>
         </div>
     )
 }
