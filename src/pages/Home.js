@@ -29,6 +29,32 @@ const Home = () => {
                 <div>
                     <p className="greetings">Good afternoon</p>
                 </div>
+                <div className="spotifyFavAlbums">
+                    <div className="spotifyFavAlbumsItem">
+                        <div className="spotifyFavAlbumsImage">Img</div>
+                        <div className="spotifyFavAlbumsText">Chill</div>
+                    </div>
+                    <div className="spotifyFavAlbumsItem">
+                        <div className="spotifyFavAlbumsImage">Img</div>
+                        <div className="spotifyFavAlbumsText">Chill</div>
+                    </div>
+                    <div className="spotifyFavAlbumsItem">
+                        <div className="spotifyFavAlbumsImage">Img</div>
+                        <div className="spotifyFavAlbumsText">Chill</div>
+                    </div>
+                    <div className="spotifyFavAlbumsItem">
+                        <div className="spotifyFavAlbumsImage">Img</div>
+                        <div className="spotifyFavAlbumsText">Chill</div>
+                    </div>
+                    <div className="spotifyFavAlbumsItem">
+                        <div className="spotifyFavAlbumsImage">Img</div>
+                        <div className="spotifyFavAlbumsText">Chill</div>
+                    </div>
+                    <div className="spotifyFavAlbumsItem">
+                        <div className="spotifyFavAlbumsImage">Img</div>
+                        <div className="spotifyFavAlbumsText">Chill</div>
+                    </div>
+                </div>
             </div>
             <div className="spotifyPlaylists">
                 <h1>Made For Rajwi</h1>
