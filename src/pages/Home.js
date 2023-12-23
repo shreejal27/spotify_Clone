@@ -57,7 +57,47 @@ const Home = () => {
                 </div>
             </div>
             <div className="spotifyPlaylists">
-                <h1>Made For Rajwi</h1>
+                <div className="spotifyPlaylistsTopBar">
+                <p className="spotifyPlaylistTitle">Recently played</p>
+                <p className="spotifyPlaylistShowAll">Show all</p>
+                </div>
+                <div className="spotifyPlaylistItemFlex">
+                <div className="spotifyPlaylistItem"> 
+                    <div className="spotifyPlaylistImage">Img</div>
+                    <p className="spotifyPlaylistText">Chill</p>
+                    <p className="spotifyPlaylistSubText">By Rajwi</p>
+                </div>
+                <div className="spotifyPlaylistItem"> 
+                    <div className="spotifyPlaylistImage">Img</div>
+                    <p className="spotifyPlaylistText">Chill</p>
+                    <p className="spotifyPlaylistSubText">By Rajwi</p>
+                </div>
+                <div className="spotifyPlaylistItem"> 
+                    <div className="spotifyPlaylistImage">Img</div>
+                    <p className="spotifyPlaylistText">Chill</p>
+                    <p className="spotifyPlaylistSubText">By Rajwi</p>
+                </div>
+                <div className="spotifyPlaylistItem"> 
+                    <div className="spotifyPlaylistImage">Img</div>
+                    <p className="spotifyPlaylistText">Chill</p>
+                    <p className="spotifyPlaylistSubText">By Rajwi</p>
+                </div>
+                <div className="spotifyPlaylistItem"> 
+                    <div className="spotifyPlaylistImage">Img</div>
+                    <p className="spotifyPlaylistText">Chill</p>
+                    <p className="spotifyPlaylistSubText">By Rajwi</p>
+                </div>
+                <div className="spotifyPlaylistItem"> 
+                    <div className="spotifyPlaylistImage">Img</div>
+                    <p className="spotifyPlaylistText">Chill</p>
+                    <p className="spotifyPlaylistSubText">By Rajwi</p>
+                </div>
+                <div className="spotifyPlaylistItem"> 
+                    <div className="spotifyPlaylistImage">Img</div>
+                    <p className="spotifyPlaylistText">Chill</p>
+                    <p className="spotifyPlaylistSubText">By Rajwi</p>
+                </div>
+                </div>
             </div>
         </div>
     )

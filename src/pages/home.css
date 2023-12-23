@@ -1,7 +1,7 @@
 
 .spotifyHome{
     background: linear-gradient(to bottom, #5c5c5c, #121212);
-    height: 43vh;
+    height: 37vh;
     width: 85rem;
     display: flex;
     flex-direction: column;
@@ -43,7 +43,7 @@
     font-size: 1.8rem;
     font-weight: 700;
     margin-top:1.8rem;
-    margin-left:0.2rem;
+    /* margin-left:0.2rem; */
 }
 
 .spotifyFavAlbums{
@@ -88,7 +88,70 @@
 
 .spotifyPlaylists{
     padding: 1rem;
-    height: 43vh;
+    height: auto;
     /* border: 1px solid white; */
     background:  #121212;
 } 
+
+.spotifyPlaylistsTopBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* border:1px solid white; */
+}
+
+
+.spotifyPlaylistItemFlex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* border: 1px solid white; */
+    margin-top:1.3rem;
+}
+
+.spotifyPlaylistItem{
+    /* border: 1px solid white; */
+    height: 17rem;
+    width: 11rem;
+    border-radius: 0.2rem;
+    background: #181818;
+}
+
+.spotifyPlaylistTitle{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 0.5rem;
+    color: white;
+}
+
+.spotifyPlaylistShowAll{
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-top: 0.8rem;
+    color: #ababab;
+
+}
+
+.spotifyPlaylistImage{
+    width: 9rem;
+    height: 9rem;
+    border-radius: 0.2rem;
+    margin: 1rem;
+    /* border: 1px solid white; */
+}
+
+.spotifyPlaylistText{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 0.5rem;
+    color: white;
+    margin-left: 1rem
+}
+
+.spotifyPlaylistSubText{
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-top: 0.5rem;
+    color: #ababab;
+    margin-left: 1rem
+}
