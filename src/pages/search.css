@@ -1,0 +1,60 @@
+
+.spotifySearch{
+    background: linear-gradient(to bottom, #5c5c5c, #121212);
+    height: 37vh;
+    width: 85rem;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid white; */
+    border-radius: 0.6rem 0.6rem 0 0;
+    padding: 1rem;
+    padding-left: 1.5rem;
+}
+
+.spotifyHomeTop{
+    display:flex;
+    justify-content: space-between;
+    border: 1px solid white;
+}
+
+.spotifyHomeTopLeft{
+    border:1px solid white;
+    width: 4.5rem;
+    display:flex;
+    justify-content: space-between;
+    /* margin-left: 0.5rem; */
+    /* margin-top: 0.7rem; */
+}
+
+.spotifySearchInput{
+    /* border:3px solid yellow; */
+    margin-right: auto;
+    margin-left: 0.5rem;
+    margin-top: -0.7rem;
+    height: 3rem;
+    width: 22.5rem;
+}
+
+.spotifySearchForm{
+    /* border:1px solid blue; */
+    outline: none;
+    border: none;
+    height: 100%;
+    width: 100%;
+    border-radius: 1.3rem;
+    background-color: #242424;
+}
+
+.spotifyHomeTopRight{
+    border:1px solid white;
+    width: 4.5rem;
+    display:flex;
+    justify-content: space-between;
+    margin-right: 0.2rem;
+}
+
+.circle{
+    display:flex;
+    justify-content: center;
+    margin-top: 0.7rem;
+}
