@@ -27,6 +27,44 @@ const Search = () => {
                         </div>
                     </div>
                 </div>
+                <div>
+                    <p className="spotifySearchHeader">Browse all</p>
+                </div>
+                <div className="spotifySearchContent" >
+                    <div className="spotifySearchContentItems">
+                            <p>Title</p>
+                            <p>Image</p>
+                    </div>
+                    <div className="spotifySearchContentItems">
+                            <p>Title</p>
+                            <p>Image</p>
+                    </div>
+                    <div className="spotifySearchContentItems">
+                            <p>Title</p>
+                            <p>Image</p>
+                    </div>
+                    <div className="spotifySearchContentItems">
+                            <p>Title</p>
+                            <p>Image</p>
+                    </div>
+                    <div className="spotifySearchContentItems">
+                            <p>Title</p>
+                            <p>Image</p>
+                    </div>
+                    <div className="spotifySearchContentItems">
+                            <p>Title</p>
+                            <p>Image</p>
+                    </div>
+                    <div className="spotifySearchContentItems">
+                            <p>Title</p>
+                            <p>Image</p>
+                    </div>
+                    <div className="spotifySearchContentItems">
+                            <p>Title</p>
+                            <p>Image</p>
+                    </div>
+
+                </div>
             </div>
         </div>
     )
