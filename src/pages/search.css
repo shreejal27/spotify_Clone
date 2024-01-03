@@ -1,7 +1,7 @@
 
 .spotifySearch{
     background: linear-gradient(to bottom, #5c5c5c, #121212);
-    height: 37vh;
+    height: auto;
     width: 85rem;
     display: flex;
     flex-direction: column;
@@ -77,8 +77,27 @@
 
 .spotifySearchContentItems{
     border: 1px solid white;
-    height: 11rem;
-    width: 11rem;
+    height: 11.2rem;
+    width: 11.2rem;
     border-radius: 0.4rem;
     margin-top: 1.3rem;
+    overflow: hidden;
+}
+
+.spotifySearchContentTitle{
+    /* border: 1px solid white; */
+    margin-top: 1.1rem;
+    margin-left: 1rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.spotifySearchContentImage{
+    border: 1px solid white;
+    margin-top: 2.2rem;
+    margin-left: 6rem;
+    height: 6.2rem;
+    width: 6rem;
+    rotate: 25deg;
+   
 }

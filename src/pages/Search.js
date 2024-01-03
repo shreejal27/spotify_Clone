@@ -32,36 +32,36 @@ const Search = () => {
                 </div>
                 <div className="spotifySearchContent" >
                     <div className="spotifySearchContentItems">
-                            <p>Title</p>
-                            <p>Image</p>
+                            <p className="spotifySearchContentTitle">Podcasts</p>
+                            <p className="spotifySearchContentImage">Image</p>
                     </div>
                     <div className="spotifySearchContentItems">
-                            <p>Title</p>
-                            <p>Image</p>
+                    <p className="spotifySearchContentTitle">Audiobooks</p>
+                            <p className="spotifySearchContentImage">Image</p>
                     </div>
                     <div className="spotifySearchContentItems">
-                            <p>Title</p>
-                            <p>Image</p>
+                    <p className="spotifySearchContentTitle">Live Events</p>
+                            <p className="spotifySearchContentImage">Image</p>
                     </div>
                     <div className="spotifySearchContentItems">
-                            <p>Title</p>
-                            <p>Image</p>
+                    <p className="spotifySearchContentTitle">Made For You</p>
+                            <p className="spotifySearchContentImage">Image</p>
                     </div>
                     <div className="spotifySearchContentItems">
-                            <p>Title</p>
-                            <p>Image</p>
+                    <p className="spotifySearchContentTitle">New Releases</p>
+                            <p className="spotifySearchContentImage">Image</p>
                     </div>
                     <div className="spotifySearchContentItems">
-                            <p>Title</p>
-                            <p>Image</p>
+                    <p className="spotifySearchContentTitle">2023 in Music</p>
+                            <p className="spotifySearchContentImage">Image</p>
                     </div>
                     <div className="spotifySearchContentItems">
-                            <p>Title</p>
-                            <p>Image</p>
+                    <p className="spotifySearchContentTitle">2023 in Podcasts</p>
+                            <p className="spotifySearchContentImage">Image</p>
                     </div>
                     <div className="spotifySearchContentItems">
-                            <p>Title</p>
-                            <p>Image</p>
+                    <p className="spotifySearchContentTitle">Hip-Hop</p>
+                            <p className="spotifySearchContentImage">Image</p>
                     </div>
 
                 </div>
